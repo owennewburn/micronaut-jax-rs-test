@@ -22,7 +22,7 @@ public class UserApi {
     @Path("/{user_id}")
     @Produces({ "application/json" })
     @ApiOperation(value = "Fetch a User by ID", notes = "", tags={ "user" })
-    String getUser(@PathParam("user_id") @ApiParam("UUID of the user to fetch") String userId){
+    String getUser(@PathParam("user_id") @ApiParam("UUID of the user to fetch") UUID userId){
         throw new RuntimeException("Not Implemented");
     }
 }
