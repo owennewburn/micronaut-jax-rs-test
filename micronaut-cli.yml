@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: micronaut.jax.rs.test
+---
+testFramework: junit
+sourceLanguage: java
